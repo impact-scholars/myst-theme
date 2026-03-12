@@ -29,7 +29,7 @@ export function SidebarNavItem({ item }: { item: SiteNavItem }) {
           'myst-primary-sidebar-item-short',
           'p-2 my-1 rounded-lg',
           'hover:bg-slate-300/30',
-          'block break-words focus:outline outline-blue-200 outline-2 rounded',
+          'block break-words focus:outline outline-myst-focus-outline outline-2 rounded',
         )}
       >
         {item.title}
@@ -56,7 +56,7 @@ export function SidebarNavItem({ item }: { item: SiteNavItem }) {
         </ExternalOrInternalLink>
         <Collapsible.Trigger asChild>
           <button
-            className="myst-primary-sidebar-item-child self-center flex-none rounded-md group hover:bg-slate-300/30 focus:outline outline-blue-200 outline-2"
+            className="myst-primary-sidebar-item-child self-center flex-none rounded-md group hover:bg-slate-300/30 focus:outline outline-myst-focus-outline outline-2"
             aria-label="Open Folder"
           >
             <ChevronRightIcon
@@ -77,7 +77,7 @@ export function SidebarNavItem({ item }: { item: SiteNavItem }) {
               'myst-primary-sidebar-item-link',
               'p-2 my-1 rounded-lg',
               'hover:bg-slate-300/30',
-              'block break-words focus:outline outline-blue-200 outline-2 rounded',
+              'block break-words focus:outline outline-myst-focus-outline outline-2 rounded',
             )}
           >
             {action.title}
