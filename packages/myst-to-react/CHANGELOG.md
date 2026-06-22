@@ -1,5 +1,15 @@
 # myst-to-react
 
+## 1.4.0
+
+### Patch Changes
+
+- 87f3ee3: Expose accent, neutral, and semantic colors as CSS custom properties for theme customization
+- 623f66d: 📦 Move to React 19 and update `peerDependencies`
+- Updated dependencies [623f66d]
+  - @myst-theme/providers@1.4.0
+  - @myst-theme/common@1.4.0
+
 ## 1.3.1
 
 ### Patch Changes
