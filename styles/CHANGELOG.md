@@ -1,5 +1,11 @@
 # @myst-theme/styles
 
+## 1.4.0
+
+### Minor Changes
+
+- 87f3ee3: Expose accent, neutral, and semantic colors as CSS custom properties for theme customization
+
 ## 1.3.1
 
 ### Patch Changes

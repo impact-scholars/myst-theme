@@ -1,5 +1,13 @@
 # @myst-theme/anywidget
 
+## 1.4.0
+
+### Patch Changes
+
+- 87f3ee3: Expose accent, neutral, and semantic colors as CSS custom properties for theme customization
+- Updated dependencies [623f66d]
+  - @myst-theme/providers@1.4.0
+
 ## 1.3.1
 
 ### Patch Changes
